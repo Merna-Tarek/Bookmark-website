@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: #F7ECDE;
+}
+h1{
+    font-size: 50px;
+    font-family: Pacifico, cursive;
+}
+h1::before{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 10%;
+    left: 60;
+    bottom: 50px;
+    background-color: #fec260;
+    z-index: -1;
+    transition: 1s all;
+}
+h1:hover::before {
+    height: 20%;
+}
+.line{
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+}
+h2 {
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background: linear-gradient(to right, #3ca55c, #b5ac49) !important;
+    
+}
+.form-control:focus{
+    border-color: #EAC78E;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem #FADEB4;
+}
